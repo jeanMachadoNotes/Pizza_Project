@@ -1,0 +1,86 @@
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto; /*centers entire menu*/
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    position: relative; /*Sets position 'relative' to current postiion*/
+    left: -100px; /*Move 100px to the left 'relative' to original position, allows to center form*/
+    margin: 10px auto;
+}
+
+#totalPrice {
+    width: 200px; /*defines size and area*/
+    height: 190px;
+    margin: 0 auto; /*Centers price menu*/
+    float: right; /*Sets it to the right*/
+}
+
+.left { /*Moves assoc. elements to left of frmMenu container*/
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right  { /*Moves assoc. elements to right of frmMenu container*/
+    width: 199px;
+    height: 200px;
+    float: right;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart  {
+    top: 0;margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 300px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F3272A;
+    color: white;
+
+}
+
+body {
+    background-color: #3680B9 ;
+}
+
+h1 {
+    font-family: Brush Script MT, cursive ;
+    color: #EEEB96; 
+    text-shadow: -3px 3px 2px #F3272A;
+    font-size: 62px;
+    
+}
+
+h3 {
+    font-family: Helvetica, sans-serif ;
+    color: #EEEB96;
+    text-shadow: 1px 1px 0px #100B05;
+    
+
+}
+
+div {
+    font-family: 'Courier New', Courier, monospace;
+    color: #EEEB96;
+}
