@@ -1,4 +1,4 @@
-# Pizza_Project
+# Pizza_Planet_Project
 
  An App for ordering custom pizza's.
 
